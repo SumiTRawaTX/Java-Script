@@ -1,0 +1,9 @@
+// +++++++++++++++++++++++++++++++++++++++++++ //
+
+stack (Premitive), Heap(Non-Primitive)
+primitive- create copy value
+Non-Primitive - Reference Value / Orignal value
+
+Example -
+
+let myName = "sumit";
