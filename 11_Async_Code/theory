@@ -1,0 +1,19 @@
+java script -
+            . synchronous (Default)
+            . single thread (Default)
+
+Execution Context-
+            . execute one line of code at a time
+            . console log 1
+            . console log 2
+            . each operation waits for the last one to 
+              complete before Execution
+
+Block code -
+            . block the flow of program
+            . read file synchronous
+
+Non-Block Code - 
+            . dest not block Execution.
+            . Read file async
+
