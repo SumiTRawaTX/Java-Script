@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur javascript </h1>
+
+    <button id="stop">Stop</button>
+    <button id="start">Start</button>
+</body>
+
+<script>
+    // setInterval(function() {
+    //     console.log("hitesh");
+    // },1000);
+
+    // setInterval(function() {
+    //     console.log("hitesh", Date.now());
+    // },1000);
+    //it run continous after ever one second
+
+    const sayDate = function(str) {
+        console.log(str, Date.now());
+    }
+    setInterval(sayDate, 1000, "hi");
+
+
+    // clear Interval
+    clearInterval(intervalId);
+</script>
+
+</html>
